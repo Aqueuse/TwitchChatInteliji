@@ -1,9 +1,9 @@
-package org.jetbrains.plugins.template.listeners
+package com.github.aqueuse.twitchchatinteliji.listeners
 
 import com.intellij.openapi.components.service
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.project.ProjectManagerListener
-import org.jetbrains.plugins.template.services.MyProjectService
+import com.github.aqueuse.twitchchatinteliji.services.MyProjectService
 
 internal class MyProjectManagerListener : ProjectManagerListener {
 
